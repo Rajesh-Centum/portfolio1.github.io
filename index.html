@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<body>
+	<title>Navigation Bar with CSS3</title>
+	<head>
+		<style>
+		body{
+		margin:0;
+		cellpadding:0;
+		}
+		
+		header{
+		height:120px;
+		background-color:powderblue;
+		}
+		nav{
+		line-height:50px;
+		background-color:gray;
+		}
+		
+		
+		main{
+			min-height:450px;
+		}
+		
+		footer{
+		line-height:50px;
+		background-color:gray;
+		}
+		
+		a{
+		text-decoration:none;
+		display:inline-block;
+		font-family:verdana;
+		text-align:center;
+		width:120px;
+		}
+		a:hover{
+			background-color:white;
+			font-size:1.1em;
+		}
+		
+		table{
+		font-family:verdana;
+		background-color:lightyellow;
+		line-height:30px;
+		}
+		
+		</style>
+	</head>
+	<body>
+	<header></header>
+	<nav>
+		<a href='#'>Home</a>
+		<a href='#'>Services</a>
+		<a href='#'>Product</a>
+		<a href='#'>About US</a>
+		<a href='#' style="float:right">Register</a>
+		<a href='#' style="float:right">Login</a>
+		
+	</nav>
+	
+	<main style="text-align:center">
+	<center>
+	<form action='#' >
+		<table>
+			<tr>
+			<td>First Name</td>
+			<td><input type='text' name='fname' placeholder='Enter firstname here...!' required='true'></td>
+			</tr>
+			<tr>
+			<td>Last Name</td>
+			<td><input type='text' name='fname' placeholder='Enter lastname here...!'></td>
+			</tr>
+			<tr>
+			<td>Address</td>
+			<td><input type='text' name='fname' placeholder='Enter address here...!'></td>
+			</tr>
+			<tr>
+			<td>Email</td>
+			<td>
+<input type='email' name=”emailaddress” maxlength=”255” />
+			</td>
+			</tr>
+			<tr>
+			<td>Gender</td>
+			<td>
+			<input type='radio' name='r1'>Male &nbsp;
+			<input type='radio' name='r1'>Female
+			</td>
+			</tr>
+			<tr>
+			<td>Contact No.</td>
+			<td>
+			<input type='tel' maxlength='10'  name='contact' placeholder='Enter contact details here...!'>
+			</td>
+			</tr>
+			<tr>
+			<td></td>
+			<td>
+			<input type='submit' value='SUBMIT'/>
+			<input type='reset' value='CANCEL'/>
+			</td>
+			</tr>
+			
+		</table>
+		</form>
+	</center>
+	</main>
+	<footer style="text-align:center"> &copy; Copyright 2017.</footer>
+</body>
+</html>
